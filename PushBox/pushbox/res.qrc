@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/again.png</file>
+        <file>res/case.png</file>
+        <file>res/close.png</file>
+        <file>res/end.png</file>
+        <file>res/ground.png</file>
+        <file>res/last.png</file>
+        <file>res/next.png</file>
+        <file>res/people.png</file>
+        <file>res/peopleend.png</file>
+        <file>res/prinnysky.png</file>
+        <file>res/sky.png</file>
+        <file>res/start.png</file>
+        <file>res/wall.png</file>
+        <file>res/win.png</file>
+        <file>res/LevelCompletedDialogBg.png</file>
+        <file>res/LevelWinSound.wav</file>
+        <file>res/push.wav</file>
+    </qresource>
+</RCC>

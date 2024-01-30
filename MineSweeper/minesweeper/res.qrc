@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/0.gif</file>
+        <file>res/1.gif</file>
+        <file>res/2.gif</file>
+        <file>res/3.gif</file>
+        <file>res/4.gif</file>
+        <file>res/5.gif</file>
+        <file>res/6.gif</file>
+        <file>res/7.gif</file>
+        <file>res/8.gif</file>
+        <file>res/ask.gif</file>
+        <file>res/blank.gif</file>
+        <file>res/blood.gif</file>
+        <file>res/error.gif</file>
+        <file>res/flag.gif</file>
+        <file>res/mine.gif</file>
+        <file>res/Ooo.gif</file>
+        <file>res/smile.gif</file>
+        <file>res/Fail.wav</file>
+        <file>res/Success.wav</file>
+        <file>res/click.wav</file>
+    </qresource>
+</RCC>

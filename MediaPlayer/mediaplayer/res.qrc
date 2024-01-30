@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/next.jpg</file>
+        <file>res/open.jpg</file>
+        <file>res/pause.jpg</file>
+        <file>res/pre.jpg</file>
+        <file>res/start.png</file>
+        <file>res/stop.jpg</file>
+        <file>res/music.png</file>
+    </qresource>
+</RCC>
