@@ -1,6 +1,6 @@
 #include "widget.h"
 #include "ui_widget.h"
-#include <QStack>
+#include <QPushButton>
 #include <QDebug>
 
 Widget::Widget(QWidget *parent)
@@ -9,17 +9,12 @@ Widget::Widget(QWidget *parent)
 {
     ui->setupUi(this);
 
-    QStack<int>s;
+    this->setFixedSize(800,600);
 
-    s.push(1);
-    s.push(2);
-    qDebug()<<s.top();
-
-    s.insert(1,3); // 任意位置插入,wth？？？
-
-    s.pop();
-    qDebug()<<s.top();
-
+    connect(ui->closeBtn,&QPushButton::clicked,this,&QWidget::close);
+    // connect(ui->closeBtn,&QPushButton::clicked,this,[=](){
+    //     this->close();
+    // });
 }
 
 Widget::~Widget()
